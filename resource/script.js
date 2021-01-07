@@ -12,7 +12,7 @@ setTimeout(function() {
 // Magic Grid
 // TODO Customize
 const magicProjectsGrid = new MagicGrid({
-    container: "#work_section",
+    container: "#project_section",
     animate: false,
     gutter: 30, // default gutter size
     static: true,
@@ -22,7 +22,7 @@ const magicProjectsGrid = new MagicGrid({
   });
 
   const magicForksGrid = new MagicGrid({
-    container: "#forks_section",
+    container: "#experience_section",
     animate: false,
     gutter: 30, // default gutter size
     static: true,

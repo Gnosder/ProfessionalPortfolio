@@ -3,6 +3,6 @@
 
 
 ## TODO
-[] Light Mode toggle
+[] Darkmode ONLY
 [] Responsive
 [] No Bootstrap

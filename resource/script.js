@@ -10,19 +10,8 @@ setTimeout(function() {
   }, 1500);
 
 // Magic Grid
-// TODO Customize
 const magicProjectsGrid = new MagicGrid({
-    container: "#project_section",
-    animate: false,
-    gutter: 30, // default gutter size
-    static: true,
-    useMin: false,
-    maxColumns: 2,
-    useTransform: true
-  });
-
-  const magicForksGrid = new MagicGrid({
-    container: "#experience_section",
+    container: "#projects_section",
     animate: false,
     gutter: 30, // default gutter size
     static: true,
@@ -33,5 +22,4 @@ const magicProjectsGrid = new MagicGrid({
 
   $("document").ready(() => {
     magicProjectsGrid.listen();
-    magicForksGrid.listen();
   });

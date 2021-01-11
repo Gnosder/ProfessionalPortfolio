@@ -121,73 +121,102 @@
             <div class="projects" id="experience_section">
                 <!-- TODO add summary of roles -->
                 <!-- XY -->
-                <section>
-                    <div class="section_title">Product Experience Manager</div>
-                    <div class="about_section">
-                        <span style="display: block;">XY The Findables Company</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
-                        <span><i class="far fa-calendar-alt"></i>&nbsp; Dec 2016 - Nov 2017</span>
-                    </div>
-                </section>
+                <a>
+                    <section>
+                        <div class="section_title">Product Experience Manager</div>
+                        <div class="about_section">
+                            <span style="display: block;">XY The Findables Company</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
+                            <span><i class="far fa-calendar-alt"></i>&nbsp; Dec 2016 - Nov 2017</span>
+                        </div>
+                    </section>
+                </a>
                 <!-- FCR -->
-                <section>
-                    <div class="section_title">Customer Service Representative</div>
-                    <div class="about_section">
-                        <span style="display: block;">First Call Resolution</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; Independence, OR</span>
-                        <span><i class="far fa-calendar-alt"></i>&nbsp; Sep 2015 - Apr 2016</span>
-                    </div>
-                </section>
+                <a>
+                    <section>
+                        <div class="section_title">Customer Service Representative</div>
+                        <div class="about_section">
+                            <span style="display: block;">First Call Resolution</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; Independence, OR</span>
+                            <span><i class="far fa-calendar-alt"></i>&nbsp; Sep 2015 - Apr 2016</span>
+                        </div>
+                    </section>
+                </a>
             </div>
         </div>
         <div id="education">
             <h1>Education</h1>
             <div class="projects" id="education_section">
-                <section>
-                    <div class="section_title">Data Science Bootcamp</div>
-                    <div class="about_section">
-                        <span style="display: block;">University of California San Diego</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
-                        <span><i class="far fa-calendar-alt"></i>&nbsp; 2020</span>
-                    </div>
-                </section>
-                <section>
-                    <div class="section_title">BA of Classical Humanities</div>
-                    <div class="about_section">
-                        <span style="display: block;">San Diego State University</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
-                        <span><i class="far fa-calendar-alt"></i>&nbsp; 2011-2013</span>
-                    </div>
-                </section>
-                <section>
-                    <div class="section_title">CompTIA A+</div>
-                    <div class="about_section">
-                        <span style="display: block;">CompTIA</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span><i class="far fa-calendar-alt"></i>&nbsp; 2019</span>
-                    </div>
-                </section>
+                <a>
+                    <section>
+                        <div class="section_title">Data Science Bootcamp</div>
+                        <div class="about_section">
+                            <span style="display: block;">University of California San Diego</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
+                            <span><i class="far fa-calendar-alt"></i>&nbsp; 2020</span>
+                        </div>
+                    </section>
+                </a>
+                <a>
+                    <section>
+                        <div class="section_title">BA of Classical Humanities</div>
+                        <div class="about_section">
+                            <span style="display: block;">San Diego State University</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display: inline-block;"><i class="fas fa-map-marker-alt"></i>&nbsp; San Diego, CA</span>
+                            <span><i class="far fa-calendar-alt"></i>&nbsp; 2011-2013</span>
+                        </div>
+                    </section>
+                </a>
+                <a>
+                    <section>
+                        <div class="section_title">CompTIA A+</div>
+                        <div class="about_section">
+                            <span style="display: block;">CompTIA</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span><i class="far fa-calendar-alt"></i>&nbsp; 2019</span>
+                        </div>
+                    </section>
+                </a>
             </div>
         </div>
         <div id="skills">
             <h1>Skills</h1>
             <div class="projects" id="skills_section">
                 <!-- UL? How best to display? -->
+                <a>
+                    <section>
+                        <div class="section_title_img">
+                            <i class="fab fa-python fa-3x"></i>
+                        </div>
+                        <div class="about_section">
+                            <span style="display: block;">Python</span>
+                        </div>
+                    </section>
+                </a>
             </div>
+        
         </div>
         <div id="passion">
             <h1>Passions</h1>
             <div class="projects" id="passion_section">
                 <!-- Same display as skills? -->
+                <a>
+                    <section>
+                        <div class="section_title">Roleplaying Games</div>
+                        <div class="about_section">
+                            <span style="display: block;">Dungeon and Dragons, World of Darkness, etc.</span>
+                        </div>
+                    </section>
+                </a>
             </div>
         </div>
         <div id="footer">
@@ -209,7 +238,7 @@
 
 <script>
     const magicProjectsGrid = new MagicGrid({
-      container: "#project_section",
+      container: "#projects_section",
       animate: false,
       gutter: 30, // default gutter size
       static: true,
@@ -218,7 +247,7 @@
       useTransform: true
     });
 
-    const magicForksGrid = new MagicGrid({
+    const magicExpGrid = new MagicGrid({
       container: "#experience_section",
       animate: false,
       gutter: 30, // default gutter size
@@ -228,7 +257,7 @@
       useTransform: true
     });
 
-    const magicForksGrid = new MagicGrid({
+    const magicEduGrid = new MagicGrid({
       container: "#education_section",
       animate: false,
       gutter: 30, // default gutter size
@@ -238,7 +267,7 @@
       useTransform: true
     });
 
-    const magicForksGrid = new MagicGrid({
+    const magicSkillGrid = new MagicGrid({
       container: "#skills_section",
       animate: false,
       gutter: 30, // default gutter size
@@ -248,8 +277,8 @@
       useTransform: true
     });
 
-    const magicForksGrid = new MagicGrid({
-      container: "#passions_section",
+    const magicPassionGrid = new MagicGrid({
+      container: "#passion_section",
       animate: false,
       gutter: 30, // default gutter size
       static: true,
@@ -260,7 +289,10 @@
 
     $("document").ready(() => {
       magicProjectsGrid.listen();
-      magicForksGrid.listen();
+      magicExpGrid.listen();
+      magicEduGrid.listen();
+      magicSkillGrid.listen();
+      magicPassionGrid.listen();
     });
   </script>
 
